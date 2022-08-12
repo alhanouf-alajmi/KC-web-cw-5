@@ -1,0 +1,39 @@
+.container {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box {
+
+width:150px ;
+height:150px ;
+background-color: aqua;
+margin:1px ;
+}
+
+ body {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+ }
+ playerX {
+    color: black;
+ }
+ playerO {
+    color: black;
+ }
+ #reset {
+    background-color: rgb(215, 34, 34);
+    color: azure;
+    padding:8px ;
+    border-radius:8px ;
+    border:none ;
+    font-size:20px ;
+    margin-left:lem ;
+    cursor:pointer ;
+ }
